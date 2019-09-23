@@ -1,0 +1,25 @@
+﻿Duplicate File Search
+
+By Doug Cosh 
+
+	Used to search directories for unique or duplicate files.  What it does with duplicate named files
+depends on the options you choose.  
+
+1.  The most tipical use would be checking Names and Dates.  This will process all unique file, as well
+as find the newest version of duplicates.
+
+2.  Just checking names will copy only unique files.  Duplicates will not be processed.  This can be usfull 
+witrh the Move option.  This will leave just the duplicates behind for you to inspect yourself.
+
+3. Checking Name, Date, and Move will move all unique and newest of duplicates.  This will leave older 
+duplicates behind.
+
+### Warning ###  Using move can lead to data loss in the event of a power outage or crash!
+
+Using Verify Files may take a long time, but it will verify that the destination file matches the original.
+
+Also please be aware that folders with more than 100,000 files can take quite a while to process.
+
+Thanks,
+Doug
+
